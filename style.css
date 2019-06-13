@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+	background-color: whitesmoke;
+}
+
+body #timer {
+	max-width: 600px;
+	min-width: 400px;
+	width: 80%;
+	text-align: center;
+	font-family: Courier, monospace;
+	font-size: 2.4em;
+	font-weight: 900;
+	margin: 20px auto;
+	padding: 40px;
+	box-shadow: 2px 2px 5px teal;
+	border-radius: 10px;
+	background-color: #ff1111;
+	color: white;
+}
+
+body #controls {
+	max-width: 600px;
+	min-width: 400px;
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+button {
+	padding: 10px;
+	margin: 5px;
+	font-size: 1.4em;
+	width: 100px;
+	border-radius: 6px;
+	background-color: #ff1111;
+	color: white;
+}
